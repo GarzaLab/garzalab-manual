@@ -1,0 +1,77 @@
+--- 
+title: "GarzaLab Manual and Code of Conduct"
+author: "Eduardo A. Garza-Villarreal"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: garzalab/garzalab-manual
+url: 'https://github.com/GarzaLab/garzalab-manual'
+description: "This is the manual and code of conduct for all staff and students at the GarzaLab"
+---
+
+# Welcome
+
+Welcome to the Neuroimaging and Psychiatry Lab aka GarzaLab. 
+This is a walkthrough for new students and staff, as well as the place to find FAQs and the code of conduct. Hopefuly this manual with provide you with an idea of how the lab functions, provide clarity on my expectations on lab members and what you can expect from me.
+
+All lab members will be expected to read this lab manual. The manual is a dynamic document, so some sections will be added and/or revised as the lab grows and develops. 
+
+This manual was mostly inspired by the great [Grange-Lab manual](https://bookdown.org/JimGrange/Grange-lab-manual/intro.html). This manual is licence under a [CC Attribution 4.0 Licence](https://creativecommons.org/licenses/by/4.0/).
+
+Let me know if you have any questions.
+
+Kind regards
+
+Eduardo A. Garza-Villarreal, MD, PhD
+Lab Leader
+egarza at comunidad.unam.mx
+
+<!--chapter:end:index.Rmd-->
+
+# Introduction {#intro}
+
+You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+
+Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
+
+```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
+par(mar = c(4, 4, .1, .1))
+plot(pressure, type = 'b', pch = 19)
+```
+
+Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
+
+```{r nice-tab, tidy=FALSE}
+knitr::kable(
+  head(iris, 20), caption = 'Here is a nice table!',
+  booktabs = TRUE
+)
+```
+
+You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
+
+<!--chapter:end:01-intro.Rmd-->
+
+# Overview {#over}
+
+My goal is to foster an environment of consistent scientific excellence and personal & professional development for all lab members, allowing you to reach your full potential whilst at the same time doing important science. I want to prepare you for whatever you will do professionally after your stay in this lab. An important aspect I procure is a good and healty group environment, overall staff health (mental and physical) and sense of accomplishment. 
+
+
+## Mission Statement
+
+* Rigorous: All work conducted in the lab should be rigorously-conducted. We take our science very seriously, and we ensure that the work we conduct is of the highest quality. As part of this, we follow principles of Open Science & Reproducibility, ensure that our studies are designed with sufficient statistical power to be informative, and hold ourselves to the strictest of ethical standards. As part of this rigour, we ensure that our studies are addressing important and novel questions.
+
+* Fundamental Research: Science typically falls into one of two categories: Fundamental (or “basic” / “pure”) research, and Applied research. Fundamental research aims to improve scientific theories, generate new ideas and knowledge, and discover new empirical phenomena, without the promise of an immediate application of this knowledge. It is often referred to as the pursuit of knowledge for its own sake. An important part of our research strategy is to conduct fundamental research into substance use and addiction, as well as other neuropsychiatric conditions.
+
+* Neuroimaging:
+
+* Addiction: 
+
+* Applied Research: 
+
+<!--chapter:end:01-over.Rmd-->
+
